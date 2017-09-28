@@ -1,0 +1,55 @@
+.style-1 input[type="text"] {
+  width: 500px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: solid 1px gainsboro;
+  -webkit-transition: box-shadow 0.3s, border 0.3s;
+  -moz-transition: box-shadow 0.3s, border 0.3s;
+  -o-transition: box-shadow 0.3s, border 0.3s;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+.style-1 input[type="text"]:focus, .style-1 input[type="text"].focus {
+  border: solid 1px #707070;
+  -webkit-box-shadow: 0 0 5px 1px #969696;
+  -moz-box-shadow: 0 0 5px 1px #969696;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+.input-list {
+  list-style: none;
+  display: inline;
+  width: auto;
+  position: relative;
+  margin-left: 5px;
+}
+
+.input  {
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  box-sizing:border-box;
+  width:100%;
+  margin:0 0 .9rem;
+  padding:.6rem;
+  background:#fff;
+  border:1px solid #bbb;
+  box-shadow:inset 0 1px 3px rgba(0,0,0,.05);
+  border-radius:0;
+  outline:none;
+  resize:vertical;
+  transition:border-color .3s ease;
+  
+}
+
+.input[disabled] {
+  border-color:#c8c8c8;
+  background-color:#f2f2f2;
+  box-shadow:none;
+  cursor:not-allowed
+}
+
+.input:focus {
+  border-color:#0c69d6
+  
+}

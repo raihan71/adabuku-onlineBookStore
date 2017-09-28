@@ -1,0 +1,28 @@
+@import 'https://fonts.googleapis.com/css?/family=Alegreya+Sans';
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+	overflow: auto;
+	margin: 0;
+}
+
+body {
+	background-color: #f39b13;
+	color: #67727A;
+	font-family: 'Alegreya', sans-serif;
+	margin: 0;
+	margin-bottom: 0px;
+	overflow: auto;
+	max-width: 100%;	
+}
+
+.clearfix {
+	clear: both;
+}

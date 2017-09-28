@@ -1,0 +1,13 @@
+figure img{ -webkit-transition:-webkit-filter .5s ease-in-out; }
+		/* Sebagai fallback ketika browser lain support filter */
+		figure img{ -moz-transition:-moz-filter .5s ease-in-out; }
+		figure img{ -ms-transition:-ms-filter .5s ease-in-out; }
+		figure img{ -o-transition:-o-filter .5s ease-in-out; }
+		figure img{ transition:filter .5s ease-in-out; }
+
+		/* Bermain-main dengan CSS3: Filter */
+		.blur:hover img.gambar-buku{ -webkit-filter:blur(2px) }
+		.blur:hover img.gambar-buku{ -moz-filter:blur(2px) }
+		.blur:hover img.gambar-buku{ -ms-filter:blur(2px) }
+		.blur:hover img.gambar-buku{ -o-filter:blur(2px) }
+		.blur:hover img.gambar-buku{ filter:blur(2px) }

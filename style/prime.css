@@ -1,0 +1,604 @@
+@import 'https://fonts.googleapis.com/css?/family=Alegreya+Sans';
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+	overflow: auto;
+	margin: 0;
+}
+
+body {
+	background-color: #f39b13;
+	color: #ffffff;
+	font-family: 'Alegreya', sans-serif;
+	margin: 0;
+	margin-bottom: 0px;
+	overflow: auto;
+	max-width: 100%;	
+}
+
+h2 {
+	font-size: 250%;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 2%;
+	color: #F5F5F5;
+}
+
+h3 {
+	font-size: 175%;
+	line-height: 155%;
+	font-weight: 400;
+	color: #F5F5F5;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: 500px;
+	margin-bottom: -4px;
+	margin-right: 20%;
+	box-shadow: auto rgba(0,0,0,.1);
+
+}
+
+header {
+	background-color: #333333;
+	width: 100%;
+	height: 86px;
+}
+
+#header-inner {
+	max-width: 100%;
+	margin: 0 auto;
+	width: auto;
+}
+
+#logo {
+	margin: 20px;
+	float: left;
+	width: 200px;
+	height: 60px;
+	background: url(../images/adb.png) no-repeat center top;
+}
+
+.adb {
+	position: absolute;
+	clear: both;
+	top: 65px;
+	left: 120px;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: large;
+	color: #ececec;
+	text-align: center;
+}
+
+/*--Nav--*/
+
+nav {
+	float: right;
+	padding: 25px 20px 0 0;
+}
+
+#slideshow h1 {
+	bottom: -5%;
+	font-weight: normal;
+	font-size: 300%;
+	font-family: 'Alegreya Sans', sans-serif;
+	text-align: center;
+}
+
+#slideshow h1 {
+	text-decoration: none;
+	color: #F5F5F5;
+}
+
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(../images/nav.png) center ;
+}
+
+a:hover#menu-icon {
+	border-radius: 4px 4px 0 0;
+}
+
+ul, li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.submenu {
+	display: none;
+}
+
+nav ul li {
+	font-size: 150%;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+nav ul li a {
+	color: #F5F5F5;
+	text-decoration: none;
+
+}
+
+nav ul li a:active {
+	color: #C3D7DF;
+}
+
+nav ul li a:hover {
+	color: #C3D7DF;
+}
+
+nav li:hover ul.submenu {
+	display: block;
+	position: absolute;
+	text-align: center;
+}
+
+nav ul.submenu li {
+	display: block;
+	padding: 0;
+	margin: 0;
+	font-size: large;
+	width: 100px;
+	height: 10%;
+	background-color: #333333;
+	float: none;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+nav ul.submenu {
+	z-index: 1000;
+	width: 100px;
+	text-align: center;
+	top: 81px;
+	margin-left: -27px;
+}
+
+nav ul.submenu li a {
+	padding-left: 10%;
+	margin-bottom: 10%;
+}
+
+.current {
+	color: #C3D7DF;
+}
+
+img.shop {
+	width: 40px;
+	float: left;
+	display: inline;
+
+}
+
+img.shop:hover {
+	margin-top: -10%;
+}
+
+ul.submenu1 {
+	display: none;
+}
+
+/*--END--*/
+
+.banner {
+	width: 100%;
+	background-color: #c75ff0;
+}
+
+.banner-inner {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.penerbit {
+	padding-bottom: 5%;
+	width: 100%;
+	max-width: 100%;
+}
+
+.pembayaran {
+	padding-bottom: 5%;
+	width: 100%;
+	max-width: 100%;
+}
+
+.pembayaran h2 {
+	text-align: center;
+	padding-bottom: 1px;
+	margin-top: 8%;
+}
+
+.partner {
+	width: 20%;
+	float: left;
+	text-align: center;
+	height: auto;
+	margin: 0 0 0 0;
+}
+
+.partner img.visa {
+	padding-left: 40px;
+	margin-bottom: -8px;
+}
+
+#visa {
+	background-color: transparent;
+	max-width: auto;
+}
+
+#visa:hover {
+	background-color: #F1AA90;
+	margin-top: -10px;
+	margin-bottom: -10px;
+
+}
+
+.visa {
+	width: auto;
+}
+
+.partner img.bitcoin {
+	padding-left: 40px;
+	margin-bottom: -8px;
+}
+
+#bitcoin {
+	background-color: transparent;
+}
+
+.bitcoin {
+	width: auto;
+}
+
+#bitcoin:hover {
+	background-color: #BEB9AD;
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+
+.partner img.cc {
+	padding-left: 48px;
+	margin-bottom: -8px;
+}
+
+#truemoney {
+	background-color: transparent;
+}
+
+.cc {
+	width: auto;
+	height: auto;
+}
+
+#truemoney:hover {
+	background-color: #AADCD2;
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+
+#bca {
+	background-color: transparent;
+}
+
+.partner img.mc {
+	padding-left: 45px;
+	margin-bottom: -8px;
+}
+
+#bca:hover {
+	background-color: #fa575c;
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+
+.mc {
+	width: auto;
+}
+
+.partner img.wo {
+	padding-left: 40px;
+	margin-bottom: -8px;
+}
+
+#mega {
+	background-color: transparent;
+}
+
+.wo {
+	width: auto;
+	height: auto;
+}
+
+#mega:hover {
+	background-color: #dfe068;
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+
+.partner i {
+	color: #F0F0F0;
+	font-size: 500%;
+	padding: 13% 0 4% 0;
+}
+
+.kenapa {
+	margin-top: 18%;
+}
+
+.kenapa .title1 {
+	font-family: 'Alegreya Sans', sans-serif;
+	text-align: center;
+	margin-bottom: 5%;
+	padding-left: 0px;
+	margin-right: 0px;
+}
+
+.kenapa h3 {
+	text-align: center;
+	font-family: 'Alegreya Sans', sans-serif;
+	padding-bottom: 10%;
+	padding-left: 0;
+	margin-right: 0;
+}
+
+.kenapa p {
+	text-align: center;
+	font-weight: normal;
+	font-size: large;
+	padding-left: 15%;
+	padding-right: 10%;
+	color: white;
+}
+
+.kolom {
+	width: 25%;
+	float: left;
+	text-align: center;
+	background-color: transparent;
+	padding-bottom: 50px;
+	clear: inherit;
+	position: relative;
+	margin-bottom: 100px;
+}
+
+.pilih {
+	width: 33%;
+	float: left;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.pilih img {
+	vertical-align: center;
+	overflow: hidden;
+	margin: 10px;
+	margin-top: 80px;
+	border-bottom: 8px inset;
+	border-collapse: separate;
+	border-width: thick;
+}
+
+.pilih img.psok {
+	width: 300px;
+	max-width: 100%;
+}
+
+.pilih img.input {
+	width: 300px;
+	max-width: 100%;
+}
+
+.pilih img.tampil {
+	max-width: 100%;
+	width: 300px;
+}
+
+.pilih img a {
+	text-decoration: none;
+}
+
+.pilih a:visited {
+	text-decoration: none;
+}
+
+.pilih a:hover {
+	text-decoration: none;
+}
+
+/*--FOOTER---*/
+#footer, footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 35px;
+	text-align: center;
+	background-color: #171717;
+}
+
+#footer p {
+	color: #F5F5F5;
+	text-align: center;
+	margin-top: 5px;
+	font-size: large;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+#login-page {
+	margin-bottom: 195px;
+	padding-bottom: 5%;
+}
+
+.container {
+	margin-top: 5%;
+	background-color: transparent;
+}
+
+div#login-page h1 {
+	color: #F5F5F5;
+}
+
+div#header {
+	background-color: white;
+	width: 100%;
+	padding-top: -20px;
+}
+
+#header-inner {
+	max-width: 1200px;
+	margin: 0 auto;
+	width: auto;
+}
+
+#logo2 {
+	bottom: 10%;
+	float: left;
+	width: 200px;
+	height: 60px;
+	background: url(../images/adb.png) no-repeat center top;
+}
+
+.adb2 {
+	position: absolute;
+	clear: both;
+	top: 68px;
+	left: 64px;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: large;
+	color: #ececec;
+}
+
+div#footer2 {
+	position: absolute;
+	clear: both;
+	max-width: auto;
+	min-width: auto;
+	background-color: transparent;
+	width: 100%;
+	margin-top: 75px;
+	padding-top: 0px;
+}
+
+#footer2 p.j-kaki2 {
+	color: white;
+	float: right;
+	margin-right: 10%;
+	font-size: large;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+#footer-menu2 {
+	margin-left: 10%;
+	list-style: none;
+	max-height: auto;
+	width: auto;
+	min-height: auto;
+}
+
+#footer-menu2 li {
+	display: inline;
+	margin-right: 10px;
+	padding-right: 10px;
+	font-size: large;
+	font-family: 'Alegreya Sans', sans-serif;
+	padding-top: -5px;	
+}
+
+#footer-menu2 li a{
+	color: white;
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+ul#footer-menu2 li a:hover {
+	color: #ececec;
+	width: 100%;
+}
+
+body#log {
+	background-color: #c75ff0;
+}
+
+ul li a.current {
+	color: #C3D7DF;
+}
+
+button.close {
+  -webkit-appearance: none;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+
+img.gambar-buku {
+	width: 85px;
+  	height: auto;
+}
+
+div#boxtime {
+	float: right;
+	position: absolute;
+	right: 0;
+	margin-left: 20%;
+	margin-top: 10px;
+	background-color: transparent;
+}
+
+.info-detail {
+	text-align: center;
+}
+
+.info {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin-right: 300px;
+	font-family: 'Alegreya Sans', sans-serif;
+	color: #FFFFFF;
+}
+
+.alert-info {
+	color: #31708F;
+	background-color: #D9EDF7;
+	border-color: #BCE8F1;
+	margin: 0;
+}
+
+.body-edit-user {
+	color: #F5F5F5;
+	font-family: "Alegreya Sans", sans-serif;
+	top: 90px;
+	height: auto;
+	max-width: auto;
+	width: auto;
+	margin-left: 350px;
+}
+
+.body-edit-user2 {
+	color: #F5F5F5;
+	font-family: "Alegreya Sans", sans-serif;
+	top: 10px;
+	height: auto;
+	max-width: auto;
+	width: auto;
+	margin-left: 250px;
+}

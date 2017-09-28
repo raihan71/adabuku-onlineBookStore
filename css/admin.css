@@ -1,0 +1,123 @@
+@import 'https://fonts.googleapis.com/css?/family=Alegreya+Sans';
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: #f39b13;
+	color: #67727A;
+	font-family: 'Alegreya', sans-serif;
+	margin: 0;
+}
+
+h2 {
+	font-size: 250%;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 2%;
+	color: #F5F5F5;
+}
+
+h3 {
+	font-size: 175%;
+	line-height: 155%;
+	padding: 5% 0;
+	font-weight: 400;
+	color: #F5F5F5;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: 500px;
+	margin-bottom: -4px;
+	margin-right: 20%;
+
+}
+
+header {
+	background-color: #333333;
+	width: 100%;
+	height: 86px;
+}
+
+#header-inner {
+	max-width: 1200px;
+	margin: 0 auto;
+	width: auto;
+}
+
+#logo {
+	margin: 20px;
+	float: left;
+	width: 200px;
+	height: 60px;
+	background: url(../images/adb.png) no-repeat center top;
+}
+
+.adb {
+	position: absolute;
+	clear: both;
+	top: 65px;
+	left: 115px;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: large;
+	color: #ececec;
+}
+
+/*--START FOR NAV--*/
+
+div#menu {
+	float: right;
+	width: 150px;
+}
+
+.navigasi {
+	border: 1px solid #000;
+	padding-bottom: 10%;
+	background-color: #333333;
+	height: 100%;
+	margin-bottom: -85px;
+	margin-top: 85px;
+	max-width: 768px;
+	padding-top: 20%;
+}
+
+.navigasi ul li {
+	list-style-type: none;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-top: -10px;
+}
+
+.navigasi ul li a {
+	text-decoration: none;
+	text-align: center;
+	color: #F5F5F5;
+}
+
+.navigasi h3 {
+	text-align: center;
+}
+
+/*--FOOTER--*/
+
+footer {
+	position: inherit;
+	clear: both;
+	max-width: auto;
+	min-width: auto;
+	background-color: #333333;
+	width: 100%;
+	padding-top: 6%;
+	padding-bottom: 4%;
+}
+
+footer p {
+	max-height: 55px;
+ 	text-align: center;
+ 	margin: 0;
+}

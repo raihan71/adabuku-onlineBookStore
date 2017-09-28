@@ -1,0 +1,53 @@
+@import 'https://fonts.googleapis.com/css?/family=Alegreya+Sans';
+
+.flat-table {
+  display: block;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 100%;
+  overflow: auto;
+  width: 100%;
+  text-align: center;
+  height: auto;
+  margin-left: 0px;
+  font-family: 'Alegreya Sans', sans-serif;
+} 
+
+.flat-table th {
+  background-color: black;
+  color: white;
+  font-weight: normal;
+  padding: 20px 30px;
+  text-align: center;
+ box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.flat-table td {
+  background-color: #eeeeee;
+  color: #333333;
+  padding: 10px 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  text-shadow: 0 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+.flat-table img.gambar-buku {
+	width: 85px;
+  height: auto;
+  box-shadow:0 2px 5px rgba(0,0,0,1);
+  margin: 0;
+  padding: 0;
+}
+
+.jumlah-record {
+	background-color: transparent;
+
+}
+
+.jumlah-record {
+position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  color: white;
+ }

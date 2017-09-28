@@ -1,0 +1,549 @@
+@media screen and (max-width: 468px) {
+	 
+	  * {
+	 	margin: 0;
+	 	padding: 0;
+	 	border: 0
+	 }
+
+	 body {
+	 	width: 100%;
+	 	background-color: #c75ff0;
+	 	max-width: 100%;
+	 }
+
+	 #slideshow {
+	 	position: relative;
+	 	top: 90px;
+	 	left: 30px;
+	 	position: center;
+	 }
+
+	 #slideshow h1 {
+	 	font-size: 100%;
+	 	text-align: center;
+	 	padding-right: 70px;
+	 }
+
+.penerbit {
+	padding-bottom: 10%;
+}
+
+.penerbit h2 {
+	text-align: center;
+	padding-bottom: 10px;
+	margin-top: 30%;
+}
+
+.pembayaran {
+	padding-bottom: 10%;
+	}
+
+.pembayaran h2 {
+	text-align: center;
+	padding-bottom: 10px;
+	margin-top: 30%;
+	}
+
+.partner {
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin: 0px;
+	clear: both;
+	padding: 0px;
+	}
+
+.partner img.visa {
+	padding: 0;
+	margin: 0;
+	}
+
+#visa:hover {
+	background-color: transparent;
+	max-width: auto;
+	width: 100%;
+	margin: 0px;
+	clear: both;
+	padding: 0px;
+	}
+
+.visa {
+	width: auto;
+	margin: 0px;
+	clear: both;
+	padding: 0px;
+
+	}
+
+.partner img.bitcoin {
+	margin: 0;
+	padding: 0;
+	}
+
+#bitcoin:hover {
+	background-color: transparent;
+	width: 100%;
+	margin: 0px;
+	clear: both;
+	padding: 0px;
+	}
+
+.bitcoin {
+	width: auto;
+	margin: 0px;
+	clear: both;
+	padding: 0px;
+	}
+
+.partner img.cc {
+	padding: 0;
+	margin: 0;
+	padding-bottom: 50px;
+	margin: 0px;
+	clear: both;
+	
+	}
+
+#truemoney:hover {
+	background-color: transparent;
+	width: 100%;
+	margin: 0px;
+	clear: both;
+	padding: 0px;
+	}
+
+.cc {
+	width: auto;
+	height: auto;
+	margin: 0px;
+	clear: both;
+	padding: 0px;
+	}
+
+#bca:hover {
+	background-color: transparent;
+	width: 100%;
+	margin: 0px;
+	clear: both;
+	padding: 0px;
+	}
+
+.partner img.mc {
+	margin: 0;
+	padding: 0;
+	}
+
+.mc {
+	width: auto;
+	margin: 0px;
+	clear: both;
+	padding: 0px;
+	}
+
+.partner img.wo {
+	padding: 0;
+	margin: 0;
+	}
+
+#mega:hover {
+	background-color: transparent;
+	width: 100%;
+	margin: 0px;
+	clear: both;
+	padding: 0px;
+	}
+
+.wo {
+	width: auto;
+	height: auto;
+	margin: 0px;
+	clear: both;
+	padding: 0px;
+	}
+
+.partner i {
+	color: #F0F0F0;
+	font-size: 350%;
+ 	padding: 4% 0 1% 0;
+	}
+
+	h1 {
+    font-size: 70px;
+    padding: 1px;
+}
+h2 {
+    font-size: 13px;
+    padding: 1px;
+}
+body {
+    font-size: 13px;
+}
+
+	h3 {
+		font-size: 125%;
+	}
+
+	p {
+		font-size: 120%;
+	}
+
+	header {
+		position: absolute;
+	}
+
+	#logo {
+		margin: 15px 0 20 -25px;
+		background: url(../images/adb-hp.png) no-repeat ;
+	}
+
+	.adb {
+		display: none;
+		text-decoration: none;
+	}
+
+	#menu-icon {
+		display: inline-block;
+		padding-top: 50px;
+		margin-top: -150px;
+		margin-bottom: 55px;
+ 	}
+
+ 	nav {
+    background: #222;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav a {
+    color: #F9F9F9;
+    display: block;
+    float: left;
+    padding: 10px;
+}
+
+nav a:visited {
+    color: #f9f9f9;
+}
+
+nav a:hover {
+    text-decoration: none;
+    background: #53bd84;
+}
+
+nav a:active {
+    position: relative;
+    top: 0;
+}
+
+.left-col {
+    width: 70%;
+    float: left;
+}
+
+.sidebar {
+    width: 20%;
+    float: right;
+    margin-bottom: 10px;
+}
+
+#about, #featured, #latest {
+    padding: 20px;
+}
+
+p {
+    padding: 0 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 0 5px;
+}
+
+footer {
+    padding: 5px;
+}
+pre {
+    overflow: scroll;
+    font-size: 10px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: 100px;
+}
+
+#header-inner {
+	max-width: 100%;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.kenapa {
+	width: 100%;
+}
+
+.kenapa .title1 h2 {
+	top: 10px;
+	bottom: 10%;
+}
+
+h2.title1 {
+	top: 100px;
+	bottom: 10%;
+}
+
+.kenapa h3 {
+	text-align: center;
+	font-family: 'Alegreya Sans', sans-serif;
+	padding-bottom: 25px;
+	padding-left: 0;
+	margin-right: 0;
+}
+
+.kenapa p {
+	text-align: center;
+	font-weight: normal;
+	font-size: large;
+	padding-left: 15%;
+	padding-right: 10%;
+	color: white;
+	padding-top: 25px;
+	margin-top: -15px;
+}
+
+.kolom {
+	width: 100%;
+	float: left;
+	text-align: center;
+	background-color: transparent;
+	clear: inherit;
+	position: relative;
+}
+
+/*--FOOTER---*/
+div#footer {
+	position: inherit;
+	clear: both;
+	max-width: 100%;
+	min-width: auto;
+	background-color: black;
+	width: 100%;
+}
+
+#footer p.j-kaki {
+	color: white;
+	float: right;
+	font-size: large;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 70%;
+	padding-bottom: -200px;
+	background-color: black;
+	padding-top: -10px;
+}
+
+ul#footer-menu {
+	margin-left: 20%;
+	list-style: none;
+	max-height: auto;
+	font-size: 70%;
+	width: 80%;
+	background-color: black;
+}
+
+#footer-menu li {
+	display: inline;
+	font-size: large;
+	font-family: 'Alegreya Sans', sans-serif;
+	background-color: black;
+	padding-right: 10;
+	right: 10px;
+}
+
+#footer-menu li a{
+	color: #ffffff;
+	text-decoration: none;
+	width: 120%;
+	background-color: black;
+	padding-right: 10;
+	right: 10px;
+}
+
+ul#footer-menu li a:hover {
+	color: #ececec;
+	width: 100%;
+}
+
+.kontak {
+	width: 100%;
+ 	float: left;
+ 	text-align: center;
+}
+
+.kontak img.fb {
+	padding-top: 130px;
+	padding-left: 0px;
+	margin: 0px;
+	padding-bottom: 20px;
+	padding-right: 10%;
+}
+
+#facebook {
+	background-color: #3a559f;
+	max-width: auto;
+	height: 350px;
+}
+
+#facebook:hover {
+	background-color: #3a559f;
+	margin: 0;
+	padding: 0;
+}
+
+.fb {
+	width: auto;
+	height: auto;
+}
+
+.kontak img.wa {
+	padding-top: 130px;
+	padding-left: 0px;
+	margin: 0px;
+	padding-bottom: 20px;
+}
+
+#wa {
+	background-color: #1bd741;
+	max-width: auto;
+	height: 350px;
+}
+
+.wa {
+	width: auto;
+	height: auto;
+}
+
+#wa:hover {
+	background-color: #1bd741;
+	margin: 0;
+	padding: 0;
+}
+
+.kontak img.tw {
+	padding-top: 130px;
+	padding-left: 0px;
+	margin: 0px;
+	padding-bottom: 20px;
+}
+
+#twitter {
+	background-color: #50abf1;
+	max-width: auto;
+	height: 350px;
+}
+
+.tw {
+	width: auto;
+	height: auto;
+}
+
+#twitter:hover {
+	background-color: #50abf1;
+	margin: 0px;
+}
+
+#instagram {
+	background-color: #e55bac;
+	max-width: auto;
+	height: 350px;
+}
+
+.kontak img.ig {
+	padding-top: 130px;
+	padding-left: 0px;
+	margin: 0px;
+	padding-bottom: 50px;
+}
+
+#instagram:hover {
+	background-color: #e55bac;
+	margin: 0;
+}
+
+.ig {
+	width: auto;
+	height: auto;
+}
+
+#contact {
+	padding-bottom: 5%;
+	background-color: #c75ff0;
+}
+
+#contact h2 {
+	font-family: 'Alegreya Sans', sans-serif;
+	text-align: center;
+	color: white;
+	direction: none;
+}
+
+#banner {
+	width: 100%;
+}
+
+.nivoSlider {
+	margin: 0px;
+	padding: 0px;
+}
+
+#slider {
+	margin-left: -10%;
+	padding-left: -10px;
+}
+
+.nivo-controlNav {
+	margin-left: -20%;
+	padding-left: -10px;
+}
+
+/*-----KASIR------*/
+
+.form-control {
+	max-width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.button-default {
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+
+/*-------*/
+
+.row {
+	width: 100%;
+	height: auto;
+}
+
+.pilih {
+	height: auto;
+	width: auto;
+	max-width: auto;
+	text-align: center;
+}
+
+img {
+	width: auto;
+	height: auto;
+}
+
+.body-edit-user {
+	width: 100%;
+	height: auto;
+}
